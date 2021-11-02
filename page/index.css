@@ -4,7 +4,7 @@
 /*Шрифтируем*/
 @import url(../vendors/fonts.css);
 
-/*Подключаю боду*/
+/*Подключаю боди*/
 @import url(../blocks/root/root.css);
 
 /*Подключаю header*/
