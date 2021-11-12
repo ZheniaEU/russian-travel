@@ -1,0 +1,15 @@
+.languages{
+   display: flex;
+   font-size: 24px;
+   line-height: 28px;
+   margin-bottom: 0;
+   padding-left: 0;
+   padding-right: 18px;
+   text-decoration: none;
+   color: #fff;
+   list-style: none;
+}
+
+.languages:last-child{
+   padding-right: 0;
+}

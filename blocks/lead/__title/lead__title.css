@@ -1,0 +1,9 @@
+.lead__title{
+   font-size: 96px;
+   line-height: 100px;
+   margin: auto;
+   text-align: center;
+   color: #fff;
+   max-width: 720px; /*я сделал это чтобы, при маржин авто слово "ПО" не заползало на первую строку и было как по макету и сжималось корректно*/
+
+}
