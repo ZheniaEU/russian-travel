@@ -40,6 +40,14 @@
 
 /*Подключаю places*/
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__cell/place__cell.css);
+@import url(../blocks/places/__titel/place__titel.css);
+@import url(../blocks/places/__website/place__website.css);
+@import url(../blocks/places/__link/place__link.css);
+@import url(../blocks/places/__url-heding/place__url-heding.css);
+@import url(../blocks/places/__image/place__image.css);
+@import url(../blocks/places/__paragraph/place__paragraph.css);
+@import url(../blocks/places/__text/place__text.css);
 
 /*Подключаю cover*/
 @import url(../blocks/cover/cover.css);

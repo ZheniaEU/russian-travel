@@ -1,0 +1,11 @@
+.place__text{
+   font-size: 18px;
+   line-height: 29px;
+   width: 484px;
+   color: #fff;
+   margin: 0;
+}
+
+.place__text:first-child{
+   padding: 0 0 26px;
+}
