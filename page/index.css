@@ -16,8 +16,8 @@
 
 /*Подключаю блок с языками*/
 @import url(../blocks/languages/languages.css);
-@import url(../blocks/languages/_active/languages_active.css);
-@import url(../blocks/languages/_not-selected/languages_not-selected.css);
+@import url(../blocks/languages/__header/_active/languages__header_active.css);
+@import url(../blocks/languages/__header/_not-selected/languages__header_not-selected.css);
 
 /*Подключаю lead*/
 @import url(../blocks/lead/lead.css);
@@ -36,6 +36,7 @@
 
 /*Подключаю photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*Подключаю places*/
 @import url(../blocks/places/places.css);

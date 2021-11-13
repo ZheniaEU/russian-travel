@@ -1,4 +1,7 @@
-/* Клятый бем, ну зачем? зачем всё это?*/
-/* .lead__image-wrapeer{
-
-} */
+.lead__image-wrapeer{
+   display: block;
+   margin: 0;
+   padding: 64px 0 0 0;
+   max-width: 100%;
+   min-width: 320px;
+}
