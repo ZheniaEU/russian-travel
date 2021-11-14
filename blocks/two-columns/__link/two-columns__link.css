@@ -1,0 +1,9 @@
+.two-columns__link{
+   text-decoration: none;
+   list-style: 0;
+   color: #fff;
+}
+
+.two-columns__link:hover{
+   opacity: 80%;
+}

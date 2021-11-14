@@ -51,6 +51,17 @@
 
 /*Подключаю cover*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link-image/cover__link-image.css);
+@import url(../blocks/cover/__titel/cover__titel.css);
+@import url(../blocks/cover/__subtittel/cover__subtitle.css);
 
 /*Подключаю footer*/
 @import url(../blocks/footer/footer.css);
+
+/*Подрубка two-columns */
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__list/two-columns__list.css);
+@import url(../blocks/two-columns/__item/two-columns__item.css);
+@import url(../blocks/two-columns/__link/two-columns__link.css);
+@import url(../blocks/two-columns/__copyright/two-columns__copyright.css);
+

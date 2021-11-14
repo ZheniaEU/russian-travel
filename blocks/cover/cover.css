@@ -1,0 +1,7 @@
+.cover{
+   display: flex;
+   justify-content: center;
+   max-height: 740px;
+   margin: 92px 48px 0;
+   outline: 2px solid red;
+}

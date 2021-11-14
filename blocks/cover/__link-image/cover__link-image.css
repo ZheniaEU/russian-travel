@@ -1,0 +1,18 @@
+.cover__link-image{
+   width: 100%;
+   background-image: url(../../../images/cover-trains.jpg);
+   background-size: cover;
+   object-fit: contain;
+   text-decoration: none;
+}
+
+.cover__link:hover::before{
+   background-color:  #2A2C2F;
+   opacity: 0.3;
+}
+
+.cover__link-image:hover{
+   background-color:  #2A2C2F;
+   opacity: 0.3;
+}
+

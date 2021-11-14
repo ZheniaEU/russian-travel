@@ -1,0 +1,10 @@
+.two-columns__item{
+   display: block;
+   font-size: 16px;
+   line-height: 18px;
+   color: #fff;
+}
+
+.two-columns__item:not(:last-child){
+   padding-right: 18px;
+}
