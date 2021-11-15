@@ -1,26 +1,20 @@
-/*я в этом css уже больше 30 часов,он был столько раз переписан что просто грустно */
+/*я в этом css уже больше 30 часов,он был столько раз переписан, что просто грустно */
 .cover__link-image{
    display: flex;
    flex-direction: column;
    align-items: center;
    min-height: 740px;
    width: 100%;
-   background-image: url(../../../images/cover-trains.jpg);/*вроде раньше скопки ставились внутри а тут ни надо ммм странно*/
+   background-image: url(../../../images/cover-trains.jpg);
    background-size: cover;
-   /* object-fit: contain; */
    text-decoration: none;
    position: relative;
-} 
-
-.cover__link-image:hover::before{
-   background-color:  #2A2C2F;
-   opacity: 0.3;
 }
 
-/* .cover__link-image:hover{
-   background-color:  #2A2C2F; 
-   opacity: 0.3;
-} */
+/*Вот такой грязи только на ютубе учат*/
+.cover__link-image:hover::before{
+   opacity: 0.8;
+}
 
 .cover__link-image::before{
    content: ""; /*чтоб я так alt заполнял*/
@@ -33,8 +27,4 @@
    opacity: 0.3;
  }
 
- .cover__link-image:hover::before{
-
-   /* background-color: #2A2C2F; */
-   opacity: 0.8;
- }
+/* вот этот css для занял 33часа*/

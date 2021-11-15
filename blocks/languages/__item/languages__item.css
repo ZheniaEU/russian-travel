@@ -1,0 +1,3 @@
+.languages__item:not(:first-child){
+   padding-left: 18px;
+}

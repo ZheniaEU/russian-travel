@@ -1,0 +1,5 @@
+.languages__lang_active{
+   text-decoration: underline;
+   list-style-type: none;
+   color: #fff;
+}

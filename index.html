@@ -16,9 +16,10 @@
 
    <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="жопа с богатыми недрами">
+      <!-- такой неприятный блок, а если языков больше чем 2? пришлось сверстать так чтоб язык третий добавлялся безболезненно, над логикой даже не задумываешься, эх поскорей бы js -->
       <ul class="languages">
-         <li><a class="languages__header_active" href="#" target="_blank">Ru</a></li>
-         <li><a class="languages__header_not-selected" href="#" target="_blank">En</a></li>
+         <li class="languages__item"><a class="languages__lang languages__lang_active" href="#" target="_blank">Ru</a></li>
+         <li class="languages__item"><a class="languages__lang" href="#" target="_blank">En</a></li>
       </ul>
    </header>
 
@@ -135,10 +136,10 @@
       <!-- я буду мстить этому блоку -->
       <!-- я ощущаю себя тупым сегодня 14 число, и 0 вопрос в слаке по этому блоку и есть люди которые уже сдали проект... -->
       <section class="cover">
-         <a class="cover__link-image" href="#" target="_blank"></a>
+         <a class="cover__link-image" href="#" target="_blank">
             <h2 class="cover__titel" >До Байкала «на собаках»</h2>
             <h3 class="cover__subtitel">По мотивам учебной темы о Транссибе &mdash; путешествие от столицы до Байкала на электричках.</h3>
-         
+         </a>
       </section>
    </main>
 
