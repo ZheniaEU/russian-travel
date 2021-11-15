@@ -18,7 +18,7 @@
 @import url(../blocks/languages/languages.css);
 @import url(../blocks/languages/__item/languages__item.css);
 @import url(../blocks/languages/__lang/languages__lang.css);
-@import url(../blocks/languages/__item/_active/languages__item_active.css);
+@import url(../blocks/languages/__lang/_active/languages__lang_active.css);
 
 /*Подключаю lead*/
 @import url(../blocks/lead/lead.css);

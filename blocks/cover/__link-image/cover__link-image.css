@@ -13,7 +13,7 @@
 
 /*Вот такой грязи только на ютубе учат*/
 .cover__link-image:hover::before{
-   opacity: 0.8;
+   opacity: 80%;
 }
 
 .cover__link-image::before{
@@ -24,7 +24,7 @@
    bottom: 0;
    left: 0;
    background-color: #2A2C2F;
-   opacity: 0.3;
+   opacity: 30%;
  }
 
 /* вот этот css для занял 33часа*/
