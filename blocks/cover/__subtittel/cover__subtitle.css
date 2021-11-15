@@ -1,11 +1,10 @@
 .cover__subtitel{
    font-size: 18px;
    line-height: 22px;
-   font-weight: normal;
+   font-weight: 400;
    width: 360px;
-
-   margin: 32px auto 245px;
-
+   margin: 32px auto 0;
+   position: relative;
    text-align: center;
    color: #fff;
 }

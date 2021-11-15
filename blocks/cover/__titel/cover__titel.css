@@ -3,8 +3,9 @@
    line-height: 76px;
    font-weight: 900;
    width: 560px;
-
+   position: relative;
    margin: 245px auto 0;
+
    text-align: center;
    color: #fff;
 }
