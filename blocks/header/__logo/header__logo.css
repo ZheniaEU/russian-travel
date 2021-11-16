@@ -4,3 +4,18 @@
    object-fit: contain;
    outline: 2px solid red;
 }
+
+@media screen and (min-width: 320px){
+   .header__logo{
+      height: 42px; 
+      width: 142px;
+      object-fit: contain;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .header__logo{
+      height: 52px; 
+      width: 176px;
+   }
+}
