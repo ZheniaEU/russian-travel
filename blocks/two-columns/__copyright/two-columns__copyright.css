@@ -1,6 +1,23 @@
 .two-columns__copyright{
+   display: block;
    font-size: 14px;
-   line-height: 16px;
-   margin: 0;
+   line-height: 14px;
+   margin: 48px 0 0 0;
    color: #fff;
+}
+/* 
+@media screen and (min-width: 320px){
+   .two-columns__copyright{
+      font-size: 14px;
+      line-height: 14px;
+      margin-top: 48px;
+   }
+} */
+
+@media screen and (min-width: 768px){
+   .two-columns__copyright{
+      font-size: 14px;
+      line-height: 16px;
+      margin: 0;
+   }
 }
