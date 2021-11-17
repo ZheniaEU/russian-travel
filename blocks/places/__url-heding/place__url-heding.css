@@ -6,7 +6,10 @@
    margin: 0;
    padding: 0;
    color: #AAA;
+   width: 288px;
 }
+
+
 
 @media screen and (min-width: 320px){
    .place__url-heding{

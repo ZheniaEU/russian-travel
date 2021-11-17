@@ -6,6 +6,9 @@
    color: #fff;
    text-decoration: none;
    border-bottom : 1px solid #fff;
+   flex-shrink: 0;
+   display: block;
+   align-items: baseline;
 }
 
 .place__link:hover{
