@@ -2,7 +2,6 @@
    height: 52px; 
    width: 176px;
    object-fit: contain;
-   outline: 2px solid red;
 }
 
 @media screen and (min-width: 320px){
