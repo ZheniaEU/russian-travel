@@ -5,16 +5,25 @@
    width: 288px;
    color: #fff;
    margin: 0 16px;
-   padding-bottom: 32px;
+   margin-bottom: 32px;
 }
 
 .place__titel:not(:first-child){
-   padding-top: 50px;
+   margin-top: 50px;
+}
+
+@media screen and (min-width: 624px){
+   .place__titel{
+      margin-right: 0;
+      margin-left: 0;
+      width: 320px;
+   }
 }
 
 @media screen and (min-width: 640px){
    .place__titel{
-      padding-bottom: 48px;
+      margin: 0;
+      margin-bottom: 48px;
    }
 }
 
@@ -23,14 +32,12 @@
       font-size: 42px;
       line-height: 46px;
       width: 340px;
-      /* padding: 0 28px 0 0; */
-      margin: 0;
       white-space: pre-line;
-      padding-bottom: 48px;
+      margin-bottom: 48px;
    }
 
    .place__titel:not(:first-child){
-      padding-top: 72px; /*в некоторых блоках 73 оставим это на совести дизайнера */
+      margin-top: 72px; /*в некоторых блоках 73 оставим это на совести дизайнера */
    }
 }
 
@@ -39,17 +46,15 @@
       font-size: 72px;
       line-height: 76px;
       width: 440px;
-      /* padding: 0 32px 0 0; */
    }
 
    .place__titel:not(:first-child){
-      padding-top: 80px;
+      margin-top: 80px;
    }
 }
 
 @media screen and (min-width: 1280px){
    .place__titel{
       width: 460px;
-      /* padding: 0 40px 0 0; */
    }
 }

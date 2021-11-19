@@ -1,13 +1,11 @@
 .place__paragraph{
-   /* margin: 48px 0 0 0; */
-   padding: 0 16px;
+   margin: 0 16px;
    width: 288px;
-   outline: 2px solid purple;
 }
 
 @media screen and (min-width: 624px){
    .place__paragraph{
-      padding: 0 0 0 16px;
+      margin: 0 0 0 16px;
       width: 288px;
    }
 } 
@@ -16,20 +14,20 @@
 @media screen and (min-width: 768px){
    .place__paragraph{
       width: 352px;
-      padding-left: 28px;
+      margin-left: 28px;
    }
 }
 
 @media screen and (min-width: 1024px){
    .place__paragraph{
       width: 456px;
-      padding-left: 32px;
+      margin-left: 32px;
    }
 }
 
 @media screen and (min-width: 1280px){
    .place__paragraph{
       width: 484px;
-      padding-left: 40px;
+      margin-left: 40px;
    }
 }

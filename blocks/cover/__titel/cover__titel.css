@@ -9,15 +9,6 @@
    color: #fff;
 }
 
-/* @media screen and (min-width: 320px){
-   .cover__titel{
-      font-size: 32px;
-      line-height: 35px;
-      width: 288px;
-      margin: 35px auto 0;
-   }
-} */
-
 @media screen and (min-width: 768px){
    .cover__titel{
       font-size: 72px;
