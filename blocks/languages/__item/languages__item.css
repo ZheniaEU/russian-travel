@@ -5,6 +5,9 @@
    padding-bottom: 6px; /*хочется взять и молотком по лапкам дизайнеру, за то что языки не касаются нижний границы блока*/
 }
 
+.languages__item:hover{
+   opacity: 80%;
+}
 .languages__item:not(:first-child){
    padding-left: 18px;
 }

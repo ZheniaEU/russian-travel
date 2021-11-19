@@ -1,34 +1,34 @@
-.two-columns__item{
+.footer__item{
    display: block;
    font-size: 16px;
    line-height: 18px;
    color: #fff;
 }
 
-.two-columns__item:not(:last-child){
+.footer__item:not(:last-child){
    padding-right: 18px;
 }
 
 @media screen and (min-width: 320px){
-   .two-columns__item{
+   .footer__item{
       font-size: 24px;
       line-height: 24px;
       padding-bottom: 32px;
    }
 
-   .two-columns__item:not(:last-child){
+   .footer__item:not(:last-child){
       padding-right: 0;
    }
 }
 
 @media screen and (min-width: 768px){
-   .two-columns__item{
+   .footer__item{
       font-size: 16px;
       line-height: 18px;
       padding-bottom: 0;
    }
 
-   .two-columns__item:not(:last-child){
+   .footer__item:not(:last-child){
       padding-right: 18px;
    }
 }
