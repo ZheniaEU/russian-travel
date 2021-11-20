@@ -2,12 +2,6 @@
    margin: 48px 0 0;
 }
 
-@media screen and (min-width: 768px){
-   .lead{
-      margin: 48px 0 0;
-   }
-}
-
 @media screen and (min-width: 1024px){
    .lead{
       margin: 48px 48px 0;

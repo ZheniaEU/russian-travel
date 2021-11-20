@@ -1,15 +1,7 @@
 .header__logo{
-   height: 52px; 
-   width: 176px;
+   height: 42px; 
+   width: 142px;
    object-fit: contain;
-}
-
-@media screen and (min-width: 320px){
-   .header__logo{
-      height: 42px; 
-      width: 142px;
-      object-fit: contain;
-   }
 }
 
 @media screen and (min-width: 768px){

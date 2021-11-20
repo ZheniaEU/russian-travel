@@ -1,41 +1,22 @@
 /* Вижу код дублируется пока закоментирую его не буду удалять, но наверное можно и не коментировать, чтоб лучше читалось, хм а как дублируемый код в одном месте подряд влияет на производительность?*/
 .place__url-heding{
-   /* font-size: 12px;
-   line-height: 20px; */
-   letter-spacing: 2px;
+   font-size: 12px;
+   line-height: 12px;    /* https://i.imgur.com/AS969E7.png */
+   letter-spacing: 2px; /*Вроде бы я добавил растояние между буквами, 2px как в макете https://i.imgur.com/Q1M5Y1Y.png */
    margin: 0;
    padding: 0;
    color: #AAA;
    width: 288px;
 }
 
-
-
-@media screen and (min-width: 320px){
-   .place__url-heding{
-      font-size: 12px;
-      line-height: 12px;
-      /* padding-top: 32px; */
-   }
-}
-
-/* @media screen and (min-width: 640px){
-   .place__url-heding{
-      padding-top: 0;
-   }
-} */
-
 @media screen and (min-width: 768px){
    .place__url-heding{
-      font-size: 12px;
-      line-height: 12px;
       padding-top: 0;
    }
 }
 
 @media screen and (min-width: 1024px){
    .place__url-heding{
-      font-size: 12px;
       line-height: 20px;
    }
 }

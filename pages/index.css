@@ -11,9 +11,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
-/*main*/
-@import url(../blocks/main/content.css);
-
 /*Подключаю блок с языками*/
 @import url(../blocks/languages/languages.css);
 @import url(../blocks/languages/__item/languages__item.css);
@@ -24,9 +21,9 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/lead__image/lead__image.css);
+@import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__image-wrapeer/lead__image-wrapeer.css);
-@import url(../blocks/lead/lead__caption/lead__caption.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 /*Подключаю intro*/
 @import url(../blocks/intro/intro.css);
@@ -34,26 +31,27 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__item-number/intro__list-numbers.css);
+
 /*Подключаю photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*Подключаю place*/
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__cell/place__cell.css);
-@import url(../blocks/place/__titel/place__titel.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__url-heding/place__url-heding.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/places/place.css);
+@import url(../blocks/places/__cell/place__cell.css);
+@import url(../blocks/places/__titel/place__titel.css);
+@import url(../blocks/places/__website/place__website.css);
+@import url(../blocks/places/__link/place__link.css);
+@import url(../blocks/places/__url-heding/place__url-heding.css);
+@import url(../blocks/places/__image/place__image.css);
+@import url(../blocks/places/__paragraph/place__paragraph.css);
+@import url(../blocks/places/__text/place__text.css);
 
 /*Подключаю cover*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link-image/cover__link-image.css);
 @import url(../blocks/cover/__titel/cover__titel.css);
-@import url(../blocks/cover/__subtittel/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 /*Подключаю footer*/
 @import url(../blocks/footer/footer.css);

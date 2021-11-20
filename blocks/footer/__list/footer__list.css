@@ -1,19 +1,12 @@
 .footer__list{
    display: flex;
+   flex-direction: column;
    padding: 0;
    margin: 0;
 }
 
-@media screen and (min-width: 320px){
-   .footer__list{
-      display: flex;
-      flex-direction: column;
-   }
-}
-
 @media screen and (min-width: 768px){
    .footer__list{
-      display: flex;
       flex-direction: row;
    }
 }

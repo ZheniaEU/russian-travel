@@ -1,9 +1,0 @@
-.place__cell{
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 80px;
-}
-
-.place__cell:first-child{
-   margin-top: 0;
-}

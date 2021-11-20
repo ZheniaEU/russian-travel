@@ -1,0 +1,36 @@
+.place__cell{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 64px;
+}
+
+.place__cell:not(:first-child){
+   margin-top: 50px;
+}
+
+@media screen and (min-width: 624px){
+   .place__cell{
+      justify-content: start;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .place__cell{
+      margin-top: 88px;
+   }
+
+   .place__cell:not(:first-child){
+      margin-top: 72px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .place__cell{
+      margin-top: 92px;
+   }
+
+   .place__cell:not(:first-child){
+      margin-top: 80px;
+   }
+}
