@@ -3,7 +3,7 @@
    flex-direction: column;
    justify-content: end;
    align-items: baseline; /*крот обезврежен! 🕳️ 🔨*/
-   margin-left: 16px;
+   margin: 0;
 }
 
 @media screen and (min-width: 624px){
@@ -34,7 +34,6 @@
 
 @media screen and (min-width: 1280px){
    .place__website{
-      width: 400px;
       margin-left: 40px;
    }
 }

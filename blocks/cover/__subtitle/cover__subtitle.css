@@ -15,7 +15,7 @@
       font-size: 18px;
       line-height: 22px;
       width: 360px;
-      margin-top: 32px auto;
+      margin-top: 32px;
       padding-bottom: calc(31.25% - 175px);
    }
 } 

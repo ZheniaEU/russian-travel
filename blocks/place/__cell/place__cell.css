@@ -3,6 +3,7 @@
    flex-wrap: wrap;
    justify-content: center;
    margin-top: 64px;
+   outline: 2px red solid;
 }
 
 .place__cell:not(:first-child){
